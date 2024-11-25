@@ -1,0 +1,49 @@
+.altura {
+   height: 150px !important; 
+   border-radius: 15px;
+}
+.tiempo-agotado {
+   color: red;
+   font-size: 25px;
+}
+.tablero div img:hover {
+   transform: scale(1.2);
+   box-shadow: -6px 5px 26px 3px rgba(151,229,166,0.62);
+}
+.fondo1, .fondo2, .fondo3 {
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   width: 100vw;
+}
+.fondo1 {
+   background-image: url("https://images3.alphacoders.com/803/803964.jpg");
+}
+.fondo2 {
+   background-image: url("https://kartinki.pics/uploads/posts/2021-07/1625852070_24-kartinkin-com-p-oboi-leto-zima-osen-vesna-krasivie-26.jpg");
+}
+.fondo3 {
+   background-image: url("https://i.pinimg.com/originals/ba/5e/26/ba5e2630691c5787bdcc38534e37e61a.jpg");
+}
+
+/* Media Queries para adaptarse a diferentes tamaños de pantalla */
+@media (max-width: 1200px) {
+   .fondo1, .fondo2, .fondo3 {
+       height: 80vh;
+       width: 100%;
+   }
+}
+
+@media (max-width: 768px) {
+   .fondo1, .fondo2, .fondo3 {
+       height: 60vh;
+       width: 100%;
+   }
+}
+
+@media (max-width: 480px) {
+   .fondo1, .fondo2, .fondo3 {
+       height: 50vh;
+       width: 100%;
+   }
+}
